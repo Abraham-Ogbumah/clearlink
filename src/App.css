@@ -4,10 +4,46 @@
 }
 
 .App {
-  background-color: blue;
   margin: 0 auto;
 }
 
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 100px;
+  background-color: #D0D5DD;
+}
+
+.nav-list {
+  list-style: none; /* Remove default list styling */
+  display: flex; /* Flexbox layout for horizontal alignment */
+  justify-content: space-around; /* Evenly space out the nav items */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+.nav-item {
+  /* Additional styling for list items if needed */
+}
+
+.nav-link {
+  color: #333333; /* Dark gray text color */
+  text-decoration: none; /* No underline */
+  font-size: 16px; /* Font size */
+  display: flex; /* Flex layout for aligning text and icon */
+  align-items: center; /* Align items vertically */
+  transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+.nav-link .fa-angle-down {
+  margin-left: 5px; /* Space between text and icon */
+  font-size: 12px; /* Slightly smaller font size for the icon */
+}
+
+.nav-link:hover, .nav-link:focus {
+  color: #0056b3; /* Change color on hover/focus for visual feedback */
+}
 
 
 
