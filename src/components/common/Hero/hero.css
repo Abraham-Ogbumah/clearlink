@@ -40,12 +40,8 @@ p {
 .action-button {
   display: flex;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 4rem;
 }
-
-/* .button.sign-up-button {
-  margin-right: 20px; 
-} */
 
 .ai-assistant {
   display: flex;
@@ -71,7 +67,7 @@ p {
     color: #175CD3;
 }
 
-span {
+.discover-ai {
     font-size: 20px;
     color: #175CD3;
     font-weight: 600;

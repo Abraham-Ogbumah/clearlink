@@ -1,6 +1,6 @@
 import React from 'react'
-import NavBar from './NavBar'
-import Hero from './Hero'
+import NavBar from './common/NavBar'
+import Hero from './common/Hero/Hero'
 
 const Header = () => {
   return (
