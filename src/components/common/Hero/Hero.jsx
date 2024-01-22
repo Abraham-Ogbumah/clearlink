@@ -14,7 +14,7 @@ const Hero = () => {
           <h1>
             Uniting the world,<br></br>one video call at a time
           </h1>
-          <p>
+          <p className="hero-description">
             Experience the future of communication with ClearLink – where
             crystal-clear video conferencing meets <br></br>unparalleled simplicity.
           </p>
