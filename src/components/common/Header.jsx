@@ -1,11 +1,13 @@
 import React from 'react'
 import NavBar from './NavBar'
+import Hero from './Hero'
 
 const Header = () => {
   return (
-    <div className='container'>
+    <header className='container hd-bg'>
         <NavBar />
-    </div>
+        <Hero />
+    </header>
   )
 }
 

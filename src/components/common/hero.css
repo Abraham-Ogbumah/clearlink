@@ -1,0 +1,78 @@
+.hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 140px 40px 40px;
+}
+
+.hero-content {
+  display: flex;
+  align-items: flex-start; /* Align the start of the items */
+  width: 100%;
+}
+
+.left-content,
+.right-content {
+  flex: 1;
+}
+
+.left-content {
+  padding-right: 20px; /* Space between the contents */
+}
+
+.right-content {
+  padding-left: 20px; /* Space between the contents */
+}
+
+h1 {
+  font-size: 5rem; /* Adjust as needed */
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+p {
+  margin-bottom: 5rem;
+  color: #666; /* Grey text color */
+  font-size: 2.2rem;
+  line-height: 1.4;
+}
+
+.action-button {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* .button.sign-up-button {
+  margin-right: 20px; 
+} */
+
+.ai-assistant {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.ai-assistant span {
+  margin-left: 10px;
+}
+
+.user-reviews {
+  /* Additional styles if needed */
+}
+
+.hero-image {
+  width: 100%; /* Adjust if needed */
+  height: auto;
+}
+
+.fa-robot {
+    font-size: 25px;
+    color: #175CD3;
+}
+
+span {
+    font-size: 20px;
+    color: #175CD3;
+    font-weight: 600;
+}

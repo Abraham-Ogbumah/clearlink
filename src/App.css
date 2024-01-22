@@ -5,14 +5,63 @@
 
 .App {
   margin: 0 auto;
+  /* padding-top: 30px; */
+}
+
+.hd-bg {
+  padding-top: 35px;
+  background-image: url('/src/assets/images/main-background.png');
+  object-fit: contain;
+}
+
+.button {
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.sign-up-button {
+  padding: 15px 32px;
+  margin: 0px 5px;
+  background-color: #175CD3;
+  color: #fff;
+  border-radius: 25px;
+}
+
+.sales-button {
+  padding: 15px 32px;
+  margin: 0px 5px;
+  background-color: #fff;
+  color: #000;
+  border-radius: 25px;
+}
+
+.free-trial-button {
+  font-size: 1.2rem;
+  padding: 30px 32px;
+  margin-right: 20px;
+  background-color: #175CD3;
+  color: #fff;
+  border-radius: 45px;
+  width: 30%;
+}
+
+.top-nav {
+  width: 40%;
 }
 
 .nav-container {
   display: flex;
   justify-content: space-between;
+  padding: 20px 30px;
   align-items: center;
-  border-radius: 100px;
-  background-color: #D0D5DD;
+  border-radius: 40px;
+  background-color: #d0d5dd;
 }
 
 .nav-list {
@@ -41,17 +90,12 @@
   font-size: 12px; /* Slightly smaller font size for the icon */
 }
 
-.nav-link:hover, .nav-link:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: #0056b3; /* Change color on hover/focus for visual feedback */
 }
 
-
-
-/* @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
+.hero-content {
+  display: flex;
+  flex-direction: row;
+}

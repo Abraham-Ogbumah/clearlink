@@ -35,8 +35,8 @@ const NavBar = () => {
         </ul>
       </nav>
       <div className="button-">
-        <Button text="Talk to sales" className="primary-button" />
-        <Button text="Sign up for free" />
+        <Button text="Talk to sales" className="button sales-button" />
+        <Button text="Sign up for free" className="button sign-up-button"/>
       </div>
     </div>
   );
