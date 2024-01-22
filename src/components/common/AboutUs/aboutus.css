@@ -1,0 +1,16 @@
+.aboutus-header {
+    display: flex;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.clearlink {
+    color: #175CD3;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.clearlink-header {
+    font-size: 3rem;
+    margin: 15px 0px 30px;
+}
