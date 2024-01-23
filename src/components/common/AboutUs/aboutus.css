@@ -1,16 +1,40 @@
+.aboutus-container {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  height: 963px;
+}
+
 .aboutus-header {
-    display: flex;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+  display: flex;
+}
+
+.aboutus-sub {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 20px;
+  height: 527px;
 }
 
 .clearlink {
-    color: #175CD3;
-    font-size: 1.2rem;
-    font-weight: bold;
+  color: #175cd3;
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
 .clearlink-header {
-    font-size: 3rem;
-    margin: 15px 0px 30px;
+  font-size: 3rem;
+  margin: 15px 0px 30px;
+}
+
+.aboutus-image {
+  flex: 1; /* Take up equal space as the card container */
+  display: flex; /* Add flex to make the image stretch to fill the div */
+  align-items: stretch;
+}
+
+.aboutus-image > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }

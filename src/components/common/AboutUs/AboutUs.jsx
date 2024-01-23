@@ -4,10 +4,11 @@ import "./aboutus.css";
 
 import HandDrawnArrow from "../../../assets/images/hand-drawn-arrow.png";
 import Collage from "../../../assets/images/group-image.png"
+import { faVideoCamera } from "@fortawesome/free-solid-svg-icons";
 
 const AboutUs = () => {
   return (
-    <div>
+    <div className="aboutus-container">
       <div className="aboutus-header">
         <div>
           <p className="clearlink">The ClearLink Advantage</p>
@@ -22,11 +23,30 @@ const AboutUs = () => {
         </div>
       </div>
 
-      <div>
-        <div>
-          <Card />
+      <div className="aboutus-sub">
+        <div className="card-container">
+          <Card
+            icon={faVideoCamera}
+            header="Crystal-clear HD video"
+            description="No more pixelation or blurriness – just stunning, lifelike clarity that brings your team closer in meetings."
+          />
+          <Card
+            icon={faVideoCamera}
+            header="Noise-canceling audio"
+            description="Say goodbye to distractions with our advanced audio tech for crisp, interruption-free conversations."
+          />
+          <Card
+            icon={faVideoCamera}
+            header="Scheduling made easy"
+            description="Streamline your agenda with ClearLink's intuitive scheduling. Set up meetings, send invitations, and receive reminders in one place."
+          />
+          <Card
+            icon={faVideoCamera}
+            header="Bank-grade security"
+            description="Your privacy is our priority with bank-grade security protocols safeguarding your meetings and data from unwanted intruders."
+          />
         </div>
-        <div>
+        <div className="aboutus-image">
             <img src={Collage} alt="collage" />
         </div>
       </div>

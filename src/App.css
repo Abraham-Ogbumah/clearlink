@@ -10,7 +10,7 @@
 
 .hd-bg {
   padding-top: 35px;
-  background-image: url('/src/assets/images/main-background.png');
+  background-image: url("/src/assets/images/main-background.png");
   object-fit: contain;
 }
 
@@ -21,14 +21,14 @@
   font-size: 16px;
   cursor: pointer;
   border: none;
-  
+
   transition: background-color 0.3s, color 0.3s;
 }
 
 .sign-up-button {
   padding: 15px 32px;
   margin: 0px 5px;
-  background-color: #175CD3;
+  background-color: #175cd3;
   color: #fff;
   border-radius: 25px;
 }
@@ -45,7 +45,7 @@
   font-size: 1.2rem;
   padding: 30px 32px;
   margin-right: 20px;
-  background-color: #175CD3;
+  background-color: #175cd3;
   color: #fff;
   border-radius: 45px;
   width: 30%;
@@ -117,3 +117,39 @@
   margin-bottom: 4rem;
 }
 
+.card {
+  width: 360px;
+  margin-right: 3rem;
+}
+
+.card-icon {
+  background-color: #f9fafb;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+
+  margin-bottom: 1.2rem;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap; /* Allow the cards to wrap to the next column */
+  flex: 1;
+  gap: 20px;
+}
+
+.card-text h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
+}
+
+.card-text p {
+  font-size: 1.2rem;
+  color: #475467;
+  margin-bottom: 0.8rem;
+  line-height: 1.5;
+}
