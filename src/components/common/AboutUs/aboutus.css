@@ -6,16 +6,16 @@
 
 .aboutus-header {
   display: flex;
-  gap: 8rem;
+  gap: 13rem;
 }
 
 .aboutus-sub {
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-start;
+  align-items: center;
   gap: 20px;
-  height: 527px;
-  margin-top: -1.1rem;
+  justify-content: space-between;
+  margin-top: -2.3rem;
 }
 
 .scribble {
