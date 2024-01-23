@@ -6,6 +6,7 @@
 
 .aboutus-header {
   display: flex;
+  gap: 8rem;
 }
 
 .aboutus-sub {
@@ -14,6 +15,11 @@
   align-items: flex-start;
   gap: 20px;
   height: 527px;
+  margin-top: -1.1rem;
+}
+
+.scribble {
+    z-index: 999;
 }
 
 .clearlink {
@@ -28,7 +34,7 @@
 }
 
 .aboutus-image {
-  flex: 1; /* Take up equal space as the card container */
+  width: 35%;
   display: flex; /* Add flex to make the image stretch to fill the div */
   align-items: stretch;
 }

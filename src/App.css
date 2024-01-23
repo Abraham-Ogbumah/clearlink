@@ -1,5 +1,6 @@
 .container {
-  width: 85%;
+  width: 90%;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -42,13 +43,13 @@
 }
 
 .free-trial-button {
-  font-size: 1.2rem;
-  padding: 30px 32px;
+  font-size: 1rem;
+  padding: 15px 0px;
   margin-right: 20px;
   background-color: #175cd3;
   color: #fff;
   border-radius: 45px;
-  width: 30%;
+  width: 40%;
 }
 
 .top-nav {
@@ -58,7 +59,7 @@
 .nav-container {
   display: flex;
   justify-content: space-between;
-  padding: 20px 30px;
+  padding: 10px 30px;
   align-items: center;
   border-radius: 40px;
   background-color: #d0d5dd;
@@ -101,25 +102,24 @@
 }
 
 .partners-info {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
   text-align: center;
 }
 
 .partners {
   display: flex;
   justify-content: space-between;
-  margin: 0 20px;
 }
 
 .partner-caption {
   font-size: 1.2rem;
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
 }
 
 .card {
-  width: 360px;
-  margin-right: 3rem;
+  width: 290px;
+  margin-right: 2rem;
 }
 
 .card-icon {
@@ -137,8 +137,9 @@
 .card-container {
   display: flex;
   flex-wrap: wrap; /* Allow the cards to wrap to the next column */
-  flex: 1;
+  width: 55%;
   gap: 20px;
+  flex-direction: row;
 }
 
 .card-text h3 {
@@ -148,7 +149,7 @@
 }
 
 .card-text p {
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: #475467;
   margin-bottom: 0.8rem;
   line-height: 1.5;
