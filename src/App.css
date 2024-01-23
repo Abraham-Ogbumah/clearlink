@@ -154,3 +154,46 @@
   margin-bottom: 0.8rem;
   line-height: 1.5;
 }
+
+.customer-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.customer-details-info {
+  display: flex;
+  align-items: center;
+}
+
+.sm-rounded-div {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+}
+
+.customer-image {
+  overflow: hidden;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+
+  margin-right: 1rem;
+}
+
+.customer-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 50%;
+}
+
+.review-buttons {
+  display: flex;
+  gap: 20px;
+}
+.review-button {
+  background-color: #fff;
+}

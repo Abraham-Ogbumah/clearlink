@@ -1,3 +1,72 @@
 .testimonial {
-    background-color: #F9FAFB;
+  background-color: #f9fafb;
+}
+
+.test-container {
+    display: flex;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    gap: 20px;
+    height: 100%;
+}
+
+.customer-review {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.customer-comment {
+    font-size: 2.8rem;
+}
+
+/* PhotoGrig */
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 10px; /* Adjust the gap to suit your design */
+}
+
+.photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Adjust as needed to handle image scaling */
+}
+
+.photo-top {
+  grid-row: 1 / 2;
+  align-self: end;
+}
+
+.photo-top-left {
+  grid-column: 2 / 3;
+}
+
+.photo-top-right {
+  grid-column: 3 / 4;
+}
+
+.photo-bottom {
+  grid-row: 2 / 3;
+  align-self: start;
+}
+
+.photo-bottom-left {
+  grid-column: 1 / 2;
+}
+
+.photo-bottom-middle {
+  grid-column: 2 / span 2;
+}
+
+.photo-bottom-right {
+  grid-column: 4 / 5;
 }
