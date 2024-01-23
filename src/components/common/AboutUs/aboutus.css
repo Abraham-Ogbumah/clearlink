@@ -1,12 +1,12 @@
 .aboutus-container {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  height: 963px;
+  /* height: 963px; */
 }
 
 .aboutus-header {
   display: flex;
-  gap: 13rem;
+  gap: 3rem;
 }
 
 .aboutus-sub {
@@ -20,6 +20,10 @@
 
 .scribble {
     z-index: 999;
+}
+
+.clearlink-content {
+    width: 60%;
 }
 
 .clearlink {

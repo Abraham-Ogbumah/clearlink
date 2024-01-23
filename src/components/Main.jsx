@@ -6,11 +6,12 @@ import Intercom from "../assets/images/intercom.svg";
 import Marvel from "../assets/images/marvel.svg";
 import Automatic from "../assets/images/automattic.svg";
 import AboutUs from "./common/AboutUs/AboutUs";
+import Testimonial from "./common/Testimonials/Testimonial";
 
 const Main = () => {
   return (
-    <main className="container">
-      <div className="partners-info">
+    <main className="">
+      <div className="partners-info container">
         <p className="partner-caption">
           Join 1,500+ companies already video conferencing the ClearLink way
         </p>
@@ -24,6 +25,7 @@ const Main = () => {
         </div>
       </div>
       <AboutUs />
+      <Testimonial />
     </main>
   );
 };

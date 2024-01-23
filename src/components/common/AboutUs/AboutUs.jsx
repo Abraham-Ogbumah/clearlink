@@ -8,9 +8,9 @@ import { faVideoCamera } from "@fortawesome/free-solid-svg-icons";
 
 const AboutUs = () => {
   return (
-    <div className="aboutus-container">
+    <div className="aboutus-container container">
       <div className="aboutus-header">
-        <div>
+        <div className="clearlink-content">
           <p className="clearlink">The ClearLink Advantage</p>
           <h2 className="clearlink-header">Why choose ClearLink</h2>
           <p className="clearlink-description hero-description">

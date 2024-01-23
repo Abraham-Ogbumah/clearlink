@@ -59,7 +59,7 @@
 .nav-container {
   display: flex;
   justify-content: space-between;
-  padding: 10px 30px;
+  padding: 8px 20px;
   align-items: center;
   border-radius: 40px;
   background-color: #d0d5dd;

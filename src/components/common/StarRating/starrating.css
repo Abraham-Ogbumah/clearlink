@@ -1,0 +1,14 @@
+.star-rating {
+  display: flex;
+}
+
+.star {
+  width: 24px; /* Size of the star */
+  height: 24px;
+  fill: #ddd; /* Default empty star color */
+  margin-right: 4px; /* Space between stars */
+}
+
+.star.filled {
+  fill: #ffc107; /* Star filled color */
+}
