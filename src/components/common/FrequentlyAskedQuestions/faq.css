@@ -1,3 +1,20 @@
+.faqasked-left span {
+  color: #175CD3;
+  font-weight: bold;
+}
+
+.faqasked-left h3 {
+  color: #1D2939;
+  font-size: 2.8rem;
+  margin-top: 10px;
+}
+
+.faqasked-left p {
+  color: #667085;
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
 .faq-accordion {
   margin: 20px 0;
   overflow: hidden;
@@ -19,12 +36,18 @@
 
 .faq-question h3 {
   margin: 0;
+  font-size: 20px;
+  color: #101828;
 }
 
 .faq-answer {
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.3s ease;
+}
+
+.faq-answer p {
+  font-size: 18px;
+  color: #475467;
 }
 
 .faq-answer.open {
