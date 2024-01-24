@@ -1,0 +1,29 @@
+.benefit-content {
+    width: 83%;
+    margin-left: auto;
+    display: flex;
+}
+
+.benefits {
+    width: 85%;
+}
+
+.benefits h3 {
+    font-size: 3rem;
+    margin-bottom: 25px;
+}
+
+.benefit-list {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.features-list {
+    margin-bottom: 25px;
+}
+
+.benefit-item {
+    list-style: none;
+}
