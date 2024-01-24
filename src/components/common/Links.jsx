@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
 
 const Links = ({ headerText, links }) => {
   return (
     <div className="footer-links">
-      <span>{headerText}</span>
+      <span className="footer-span">{headerText}</span>
       <ul className="footer-list">
         {links.map((link, index) => (
           <li key={index} className="footer-item">

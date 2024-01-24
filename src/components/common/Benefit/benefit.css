@@ -18,12 +18,28 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin-right: 20px;
 }
 
 .features-list {
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }
 
 .benefit-item {
     list-style: none;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.b-icon {
+    padding: 5px;
+    border: 1px solid blue;
+    border-radius: 50%;
+    color: blue;
+}
+
+.sb {
+    margin-left: 0;
 }

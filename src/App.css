@@ -110,6 +110,10 @@
   flex-wrap: wrap;
 }
 
+.partners img {
+  margin: 10px 5px;
+}
+
 .partner-caption {
   font-size: 1.2rem;
   margin-bottom: 3rem;
@@ -237,7 +241,7 @@
 }
 
 .footer-left-content {
-  width: 30%;
+  width: 28%;
 }
 
 .footer-links {
@@ -258,6 +262,21 @@
   text-decoration: none;
   color: #475467;
   font-size: 1.1rem;
+}
+
+.flogo {
+  margin-bottom: 20px;
+}
+
+.fdescription {
+  color: #475467;
+  font-size: 18px;
+}
+
+.footer-span {
+  color: #667085;
+  font-size: 1rem;
+  margin-bottom: 15px;
 }
 
 .download {

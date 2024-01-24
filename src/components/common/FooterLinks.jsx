@@ -2,8 +2,8 @@ import React from "react";
 import Logo from "../../assets/images/logo.png";
 import Links from "./Links";
 
-import GoogleButton from "../../assets/images/playstore_badge.png"
-import AppleBotton from "../../assets/images/apple_app_store_badge.png"
+import GoogleButton from "../../assets/images/playstore_badge.png";
+import AppleBotton from "../../assets/images/apple_app_store_badge.png";
 
 const FooterLinks = () => {
   const footerLinks = [
@@ -38,10 +38,10 @@ const FooterLinks = () => {
   return (
     <div className="container footer-container">
       <div className="footer-left-content">
-        <div className="logo">
+        <div className="logo flogo">
           <img src={Logo} alt="Clearfix logo" />
         </div>
-        <p className="">
+        <p className="fdescription">
           ClearLink is your gateway to effortless, high-quality video
           conferencing. Join us in shaping the future of communication!
         </p>
@@ -51,7 +51,7 @@ const FooterLinks = () => {
       <Links headerText="Resources" links={footerLinks3} />
       <Links headerText="Legal" links={footerLinks4} />
       <div className="download">
-        <span>Get the app</span>
+        <span className="footer-span" style={{ display: 'inline-block', color: '#004EEB' }}>Get the app</span>
         <img src={GoogleButton} alt="Playstore" />
         <img src={AppleBotton} alt="Apple store" />
       </div>
