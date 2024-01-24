@@ -1,5 +1,6 @@
 .faq-accordion {
   margin: 20px 0;
+  overflow: hidden;
 }
 
 .faq-item {
@@ -29,4 +30,32 @@
 .faq-answer.open {
   max-height: 1000px; /* Adjust as needed for content height */
   padding: 0 15px 15px; /* Padding to match question padding */
+}
+
+.faqasked {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  display: flex;
+  gap: 20px;
+}
+
+.faqasked-left {
+  flex: 1;
+}
+
+.faqasked-right {
+  flex: 1;
+}
+
+.plus-sign {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 1px solid #98A2B3;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #98A2B3;
 }

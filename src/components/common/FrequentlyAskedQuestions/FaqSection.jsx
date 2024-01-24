@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlus, faMinus } from "@fortawesome/free-solid-svg-icons";
 
 const FaqSection = () => {
-  const [activeIndex, setActiveIndex] = useState(null); // To track the active/open item
+  const [activeIndex, setActiveIndex] = useState(null);
 
   const faqs = [
     {
@@ -17,7 +17,28 @@ const FaqSection = () => {
       answer:
         "Yes, you can use ClearLink on multiple devices, including tablets, smartphones, and desktop computers.",
     },
-    // ... Add other FAQs here
+    {
+      question:
+        "Is ClearLink compatible with other video conferencing platforms?",
+      answer:
+        "Yes, you can use ClearLink on multiple devices, including tablets, smartphones, and desktop computers.",
+    },
+    {
+      question:
+        "How does ClearLink ensure the security of my video conferences?",
+      answer:
+        "Yes, you can use ClearLink on multiple devices, including tablets, smartphones, and desktop computers.",
+    },
+    {
+      question: "Do I need to download any software to use ClearLink?",
+      answer:
+        "Yes, you can use ClearLink on multiple devices, including tablets, smartphones, and desktop computers.",
+    },
+    {
+      question: "What kind of customer support does ClearLink provide?",
+      answer:
+        "Yes, you can use ClearLink on multiple devices, including tablets, smartphones, and desktop computers.",
+    },
   ];
 
   const toggleFAQ = (index) => {
@@ -30,7 +51,11 @@ const FaqSection = () => {
         <div key={index} className="faq-item">
           <div className="faq-question" onClick={() => toggleFAQ(index)}>
             <h3>{faq.question}</h3>
-            <FontAwesomeIcon icon={activeIndex === index ? faMinus : faPlus} />
+            <div className="plus-sign">
+              <FontAwesomeIcon
+                icon={activeIndex === index ? faMinus : faPlus}
+              />
+            </div>
           </div>
           <div className={`faq-answer ${activeIndex === index ? "open" : ""}`}>
             <p>{faq.answer}</p>

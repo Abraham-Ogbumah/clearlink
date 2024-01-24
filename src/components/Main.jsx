@@ -7,11 +7,11 @@ import Marvel from "../assets/images/marvel.svg";
 import Automatic from "../assets/images/automattic.svg";
 import AboutUs from "./common/AboutUs/AboutUs";
 import Testimonial from "./common/Testimonials/Testimonial";
-import FaqSection from "./common/FrequentlyAskedQuestions/FaqSection";
+import FrequentlyAsked from "./common/FrequentlyAskedQuestions/FrequentlyAsked";
 
 const Main = () => {
   return (
-    <main className="">
+    <main>
       <div className="partners-info container">
         <p className="partner-caption">
           Join 1,500+ companies already video conferencing the ClearLink way
@@ -27,7 +27,7 @@ const Main = () => {
       </div>
       <AboutUs />
       <Testimonial />
-      <FaqSection />
+      <FrequentlyAsked />
     </main>
   );
 };
