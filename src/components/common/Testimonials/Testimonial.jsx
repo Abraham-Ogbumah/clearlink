@@ -18,7 +18,7 @@ const Testimonial = () => {
           <StarRating rating={5} />
           <h3 className="customer-comment">
             ClearLink has upgraded our remote meetings. High-quality video,
-            screen sharing, andtop-notch security make it essential for our
+            screen sharing, and top-notch security make it essential for our
             team.
           </h3>
           <CustomerReview />

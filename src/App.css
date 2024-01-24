@@ -161,6 +161,15 @@
   line-height: 1.5;
 }
 
+.customer-review {
+  flex: 1;
+}
+
+.photogrid-container {
+  flex: 1;
+  height: 100%;
+}
+
 .customer-details {
   display: flex;
   align-items: center;
@@ -196,12 +205,24 @@
   border-radius: 50%;
 }
 
+.name {
+  margin-bottom: 5px;
+}
+
 .review-buttons {
   display: flex;
   gap: 20px;
 }
+
 .review-button {
   background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.review-button img{
+  width: 80%;
 }
 
 .social-area {
