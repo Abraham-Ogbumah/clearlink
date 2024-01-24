@@ -16,16 +16,20 @@ const Benefit = () => {
             <h3>Ready to clear the path to perfect communication?</h3>
             <ul className="features-list">
               <li className="benefit-item">
-                <FontAwesomeIcon icon={faCheck} className="b-icon"/> 30 days free trial
+                <FontAwesomeIcon icon={faCheck} className="b-icon" /> 30 days
+                free trial
               </li>
               <li className="benefit-item">
-                <FontAwesomeIcon icon={faCheck} className="b-icon"/> Cancel at any time
+                <FontAwesomeIcon icon={faCheck} className="b-icon" /> Cancel at
+                any time
               </li>
               <li className="benefit-item">
-                <FontAwesomeIcon icon={faCheck} className="b-icon"/> Access to all features
+                <FontAwesomeIcon icon={faCheck} className="b-icon" /> Access to
+                all features
               </li>
               <li className="benefit-item">
-                <FontAwesomeIcon icon={faCheck} className="b-icon"/> Personalized onboarding
+                <FontAwesomeIcon icon={faCheck} className="b-icon" />{" "}
+                Personalized onboarding
               </li>
             </ul>
           </div>

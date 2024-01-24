@@ -23,7 +23,9 @@
   cursor: pointer;
   border: none;
 
-  transition: background-color 0.3s, color 0.3s;
+  transition:
+    background-color 0.3s,
+    color 0.3s;
 }
 
 .sign-up-button {
@@ -136,7 +138,7 @@
   margin-bottom: 1.2rem;
 }
 
-.card-icon img{
+.card-icon img {
   width: 70%;
 }
 
@@ -221,7 +223,7 @@
   align-items: center;
 }
 
-.review-button img{
+.review-button img {
   width: 80%;
 }
 

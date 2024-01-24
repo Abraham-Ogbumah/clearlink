@@ -1,12 +1,12 @@
-import React from 'react';
+import React from "react";
 
-import Photo1 from "../../../assets/images/grid-image-1.png"
-import Photo2 from "../../../assets/images/grid-image-2.png"
-import Photo3 from "../../../assets/images/grid-image-3.png"
-import Photo4 from "../../../assets/images/grid-image-4.png"
-import Photo5 from "../../../assets/images/grid-image-5.png"
+import Photo1 from "../../../assets/images/grid-image-1.png";
+import Photo2 from "../../../assets/images/grid-image-2.png";
+import Photo3 from "../../../assets/images/grid-image-3.png";
+import Photo4 from "../../../assets/images/grid-image-4.png";
+import Photo5 from "../../../assets/images/grid-image-5.png";
 
-import "./testimonial.css"
+import "./testimonial.css";
 
 const PhotoGrid = () => {
   return (

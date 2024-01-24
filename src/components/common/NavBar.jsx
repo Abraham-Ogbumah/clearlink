@@ -36,7 +36,7 @@ const NavBar = () => {
       </nav>
       <div className="button-">
         <Button text="Talk to sales" className="button sales-button" />
-        <Button text="Sign up for free" className="button sign-up-button"/>
+        <Button text="Sign up for free" className="button sign-up-button" />
       </div>
     </div>
   );

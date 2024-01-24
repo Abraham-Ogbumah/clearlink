@@ -4,7 +4,7 @@ import UserReviews from "../../../assets/images/user_reviews.png";
 import Button from "../Button";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faRobot } from "@fortawesome/free-solid-svg-icons";
-import './hero.css';
+import "./hero.css";
 
 const Hero = () => {
   return (
@@ -16,7 +16,8 @@ const Hero = () => {
           </h1>
           <p className="hero-description">
             Experience the future of communication with ClearLink – where
-            crystal-clear video conferencing meets <br></br>unparalleled simplicity.
+            crystal-clear video conferencing meets <br></br>unparalleled
+            simplicity.
           </p>
 
           <div className="action-button">
@@ -25,7 +26,7 @@ const Hero = () => {
               className="button free-trial-button"
             />
             <div className="ai-assistant">
-              <FontAwesomeIcon icon={faRobot} className="fa-robot"/>
+              <FontAwesomeIcon icon={faRobot} className="fa-robot" />
               <span className="discover-ai">Discover AI assistant</span>
             </div>
           </div>
@@ -34,7 +35,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="right-content">
-          <img src={HeroImage} alt="sampleimage" className="hero-image"/>
+          <img src={HeroImage} alt="sampleimage" className="hero-image" />
         </div>
       </div>
     </div>

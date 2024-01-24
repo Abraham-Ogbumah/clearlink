@@ -51,7 +51,12 @@ const FooterLinks = () => {
       <Links headerText="Resources" links={footerLinks3} />
       <Links headerText="Legal" links={footerLinks4} />
       <div className="download">
-        <span className="footer-span" style={{ display: 'inline-block', color: '#004EEB' }}>Get the app</span>
+        <span
+          className="footer-span"
+          style={{ display: "inline-block", color: "#004EEB" }}
+        >
+          Get the app
+        </span>
         <img src={GoogleButton} alt="Playstore" />
         <img src={AppleBotton} alt="Apple store" />
       </div>

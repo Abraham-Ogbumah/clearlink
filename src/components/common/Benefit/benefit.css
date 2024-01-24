@@ -1,45 +1,45 @@
 .benefit-content {
-    width: 83%;
-    margin-left: auto;
-    display: flex;
+  width: 83%;
+  margin-left: auto;
+  display: flex;
 }
 
 .benefits {
-    width: 85%;
+  width: 85%;
 }
 
 .benefits h3 {
-    font-size: 3rem;
-    margin-bottom: 25px;
+  font-size: 3rem;
+  margin-bottom: 25px;
 }
 
 .benefit-list {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin-right: 20px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-right: 20px;
 }
 
 .features-list {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .benefit-item {
-    list-style: none;
+  list-style: none;
 
-    display: flex;
-    align-items: center;
-    gap: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .b-icon {
-    padding: 5px;
-    border: 1px solid blue;
-    border-radius: 50%;
-    color: blue;
+  padding: 5px;
+  border: 1px solid blue;
+  border-radius: 50%;
+  color: blue;
 }
 
 .sb {
-    margin-left: 0;
+  margin-left: 0;
 }

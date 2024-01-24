@@ -3,12 +3,12 @@ import Card from "../Card";
 import "./aboutus.css";
 
 import HandDrawnArrow from "../../../assets/images/hand-drawn-arrow.png";
-import Collage from "../../../assets/images/group-image.png"
+import Collage from "../../../assets/images/group-image.png";
 import { faVideoCamera } from "@fortawesome/free-solid-svg-icons";
-import Video from "../../../assets/icons/video-svgrepo-com.svg"
-import Noise from "../../../assets/icons/sound-svgrepo-com.svg"
-import Schedule from "../../../assets/icons/schedule-svgrepo-com.svg"
-import Lock from "../../../assets/icons/lock-3-svgrepo-com.svg"
+import Video from "../../../assets/icons/video-svgrepo-com.svg";
+import Noise from "../../../assets/icons/sound-svgrepo-com.svg";
+import Schedule from "../../../assets/icons/schedule-svgrepo-com.svg";
+import Lock from "../../../assets/icons/lock-3-svgrepo-com.svg";
 
 const AboutUs = () => {
   return (
@@ -51,7 +51,7 @@ const AboutUs = () => {
           />
         </div>
         <div className="aboutus-image">
-            <img src={Collage} alt="collage" />
+          <img src={Collage} alt="collage" />
         </div>
       </div>
     </div>

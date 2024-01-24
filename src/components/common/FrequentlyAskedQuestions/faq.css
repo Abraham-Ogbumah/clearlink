@@ -1,10 +1,10 @@
 .faqasked-left span {
-  color: #175CD3;
+  color: #175cd3;
   font-weight: bold;
 }
 
 .faqasked-left h3 {
-  color: #1D2939;
+  color: #1d2939;
   font-size: 2.8rem;
   margin-top: 10px;
 }
@@ -75,11 +75,11 @@
   width: 24px;
   height: 24px;
   border-radius: 50%;
-  border: 1px solid #98A2B3;
+  border: 1px solid #98a2b3;
 
   display: flex;
   justify-content: center;
   align-items: center;
 
-  color: #98A2B3;
+  color: #98a2b3;
 }

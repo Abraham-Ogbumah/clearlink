@@ -1,6 +1,6 @@
 import React from "react";
 import FaqSection from "./FaqSection";
-import "./faq.css"
+import "./faq.css";
 
 const FrequentlyAsked = () => {
   return (
