@@ -2,39 +2,42 @@ import React from "react";
 import Logo from "../../assets/images/logo.png";
 import Links from "./Links";
 
+import GoogleButton from "../../assets/images/playstore_badge.png"
+import AppleBotton from "../../assets/images/apple_app_store_badge.png"
+
 const FooterLinks = () => {
   const footerLinks = [
-    { href: "#Overview", text: "Overview" },
-    { href: "#Features", text: "Features" },
-    { href: "#Solutions", text: "Solutions" },
-    { href: "#Tutorials", text: "Tutorials" },
-    { href: "#Pricing", text: "Pricing" },
+    { href: "#overview", text: "Overview" },
+    { href: "#features", text: "Features" },
+    { href: "#solutions", text: "Solutions" },
+    { href: "#tutorials", text: "Tutorials" },
+    { href: "#pricing", text: "Pricing" },
   ];
   const footerLinks2 = [
-    { href: '#Overview', text: 'Overview' },
-    { href: '#Features', text: 'Features' },
-    { href: '#Solutions', text: 'Solutions' },
-    { href: '#Tutorials', text: 'Tutorials' },
-    { href: '#Pricing', text: 'Pricing' },
+    { href: "#aboutus", text: "About Us" },
+    { href: "#career", text: "Career" },
+    { href: "#press", text: "Press" },
+    { href: "#news", text: "News" },
+    { href: "#contact", text: "Contact" },
   ];
   const footerLinks3 = [
-    { href: '#Overview', text: 'Overview' },
-    { href: '#Features', text: 'Features' },
-    { href: '#Solutions', text: 'Solutions' },
-    { href: '#Tutorials', text: 'Tutorials' },
-    { href: '#Pricing', text: 'Pricing' },
+    { href: "#blog", text: "Blog" },
+    { href: "#events", text: "Events" },
+    { href: "#helpcenter", text: "Help Centre" },
+    { href: "#Tutorials", text: "Tutorials" },
+    { href: "#Support", text: "Support" },
   ];
   const footerLinks4 = [
-    { href: '#Overview', text: 'Overview' },
-    { href: '#Features', text: 'Features' },
-    { href: '#Solutions', text: 'Solutions' },
-    { href: '#Tutorials', text: 'Tutorials' },
-    { href: '#Pricing', text: 'Pricing' },
+    { href: "#terms", text: "Terms" },
+    { href: "#privacy", text: "Privacy" },
+    { href: "#cookies", text: "Cookies" },
+    { href: "#licenses", text: "Licenses" },
+    { href: "#contact", text: "Contact" },
   ];
-  
+
   return (
-    <div className="container">
-      <div className="">
+    <div className="container footer-container">
+      <div className="footer-left-content">
         <div className="logo">
           <img src={Logo} alt="Clearfix logo" />
         </div>
@@ -43,10 +46,15 @@ const FooterLinks = () => {
           conferencing. Join us in shaping the future of communication!
         </p>
       </div>
-      <Links />
-      <Links />
-      <Links />
-      <Links />
+      <Links headerText="Product" links={footerLinks} />
+      <Links headerText="Company" links={footerLinks2} />
+      <Links headerText="Resources" links={footerLinks3} />
+      <Links headerText="Legal" links={footerLinks4} />
+      <div className="download">
+        <span>Get the app</span>
+        <img src={GoogleButton} alt="Playstore" />
+        <img src={AppleBotton} alt="Apple store" />
+      </div>
     </div>
   );
 };

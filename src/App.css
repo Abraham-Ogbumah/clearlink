@@ -225,9 +225,25 @@
   fill: currentColor; /* This will use the text color for the SVG */
 }
 
+.footer {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.footer-left-content {
+  width: 30%;
+}
+
 .footer-links {
   display: flex;
   flex-direction: column;
+  flex: 1;
 }
 
 .footer-list {
@@ -242,4 +258,8 @@
   text-decoration: none;
   color: #475467;
   font-size: 1.1rem;
+}
+
+.download {
+  flex: 1;
 }
