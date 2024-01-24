@@ -4,7 +4,6 @@ import "./aboutus.css";
 
 import HandDrawnArrow from "../../../assets/images/hand-drawn-arrow.png";
 import Collage from "../../../assets/images/group-image.png";
-import { faVideoCamera } from "@fortawesome/free-solid-svg-icons";
 import Video from "../../../assets/icons/video-svgrepo-com.svg";
 import Noise from "../../../assets/icons/sound-svgrepo-com.svg";
 import Schedule from "../../../assets/icons/schedule-svgrepo-com.svg";
