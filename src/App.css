@@ -198,3 +198,32 @@
 .review-button {
   background-color: #fff;
 }
+
+.social-area {
+  background-color: #f9fafb;
+  color: #667085;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.social-buttons {
+  display: flex;
+}
+
+.social-icon {
+  width: 24px; /* Adjust the size as needed */
+  height: 24px;
+  margin: 0 10px; /* Add some space between icons */
+}
+
+.social-icon img {
+  width: 100%;
+  height: 100%;
+  fill: currentColor; /* This will use the text color for the SVG */
+}

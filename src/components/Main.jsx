@@ -9,6 +9,7 @@ import AboutUs from "./common/AboutUs/AboutUs";
 import Testimonial from "./common/Testimonials/Testimonial";
 import FrequentlyAsked from "./common/FrequentlyAskedQuestions/FrequentlyAsked";
 import Benefit from "./common/Benefit/Benefit";
+import Footer from "./Footer";
 
 const Main = () => {
   return (
@@ -30,6 +31,7 @@ const Main = () => {
       <Testimonial />
       <FrequentlyAsked />
       <Benefit />
+      <Footer />
     </main>
   );
 };
