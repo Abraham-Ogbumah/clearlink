@@ -7,6 +7,7 @@ import Marvel from "../assets/images/marvel.svg";
 import Automatic from "../assets/images/automattic.svg";
 import AboutUs from "./common/AboutUs/AboutUs";
 import Testimonial from "./common/Testimonials/Testimonial";
+import FaqSection from "./common/FrequentlyAskedQuestions/FaqSection";
 
 const Main = () => {
   return (
@@ -26,6 +27,7 @@ const Main = () => {
       </div>
       <AboutUs />
       <Testimonial />
+      <FaqSection />
     </main>
   );
 };
