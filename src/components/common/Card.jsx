@@ -1,12 +1,11 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 
-const Card = ({icon, header, description}) => {
+const Card = ({icon, header, description, name}) => {
   return (
     <div className="card">
       <div className="card-icon">
-        <FontAwesomeIcon icon={icon} />
+        <img src={icon} alt={name}/>
       </div>
       <div className="card-text">
         <h3>{header}</h3>
