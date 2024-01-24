@@ -8,6 +8,7 @@ import Automatic from "../assets/images/automattic.svg";
 import AboutUs from "./common/AboutUs/AboutUs";
 import Testimonial from "./common/Testimonials/Testimonial";
 import FrequentlyAsked from "./common/FrequentlyAskedQuestions/FrequentlyAsked";
+import Benefit from "./common/Benefit/Benefit";
 
 const Main = () => {
   return (
@@ -28,6 +29,7 @@ const Main = () => {
       <AboutUs />
       <Testimonial />
       <FrequentlyAsked />
+      <Benefit />
     </main>
   );
 };
