@@ -16,22 +16,34 @@ const Socials = () => {
         </div>
         <div className="social-buttons">
           <div className="social-icon">
-            <img src={LinkedIn} alt="LinkedIn" />
+            <a href="#LinkedIn">
+              <img src={LinkedIn} alt="LinkedIn" />
+            </a>
           </div>
           <div className="social-icon">
-            <img src={Twitter} alt="Twitter" />
+            <a href="#Twitter">
+              <img src={Twitter} alt="Twitter" />
+            </a>
           </div>
           <div className="social-icon">
-            <img src={Facebook} alt="Facebook" />
+            <a href="#Facebook">
+              <img src={Facebook} alt="Facebook" />
+            </a>
           </div>
           <div className="social-icon">
-            <img src={Instagram} alt="Instagram" />
+            <a href="#Instagram">
+              <img src={Instagram} alt="Instagram" />
+            </a>
           </div>
           <div className="social-icon">
-            <img src={Github} alt="Github" />
+            <a href="#Github">
+              <img src={Github} alt="Github" />
+            </a>
           </div>
           <div className="social-icon">
-            <img src={Youtube} alt="Youtuben" />
+            <a href="#Youtube">
+              <img src={Youtube} alt="Youtuben" />
+            </a>
           </div>
         </div>
       </div>

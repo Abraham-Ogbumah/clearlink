@@ -29,7 +29,7 @@
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
-  padding: 15px 15px 20px;
+  padding: 15px 15px;
   border: none; /* Remove all borders */
   border-bottom: 1px solid #ddd; /* Only set the bottom border */
   border-radius: 5px;
